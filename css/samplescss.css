@@ -1,0 +1,23 @@
+.div-border {
+  border: 2px solid skyblue;
+}
+
+textarea {
+  border: 24 solid red;
+}
+
+nav ul {
+  margin-left:800;
+  padding:10;
+  list-style: none;
+}
+nav li {
+  
+  display: inline-block;
+}
+nav a {
+  
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}/*# sourceMappingURL=samplescss.css.map */

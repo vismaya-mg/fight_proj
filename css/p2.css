@@ -1,0 +1,60 @@
+.topdiv
+{
+    background-color: rgb(7, 255, 152);
+    width: 100%;
+    height: 10%;
+    color:white ;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+  
+}
+.middlediv
+{
+    background-color: rgb(9, 217, 123);
+    width: 55%;
+    height: 50%;
+    color:white ;
+    display: flex;
+    text-align: center;
+    font-size:60 ;
+  
+    
+  
+}
+.rightdiv
+{
+    background-color: rgb(217, 127, 9);
+    width: 45%;
+    height: 50%;
+    color:white ;
+    display: flex;
+    text-align: center;
+    font-size:60 ;
+    float: right;
+    
+  
+    
+  
+}
+
+.downdiv
+{   
+ 
+    background-color: skyblue;
+    width: 100%;
+    height: 10%;
+    color:white ;
+    display: flex;
+    text-align: center;
+  
+}
+   
+
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}

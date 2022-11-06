@@ -1,0 +1,78 @@
+.leftdiv
+{
+    background-color: blue;
+    border: 1px solid black;
+    width: 30%;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    float: left;
+    display:none;
+    
+
+
+}
+.leftdiv:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor:hand;
+}
+
+.rightdiv
+{
+    background-color: red;
+    border: 1px solid rgb(85, 0, 255);
+    width: 30%;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 2;
+}
+.rightdiv:hover{
+    background-color: blueviolet;
+    color: yellowgreen;
+    cursor: pointer;
+    
+}
+.container
+{
+    border: 1px solid green;
+    position: relative;
+    top:50px;
+    left:50px;
+    height: 600px;
+
+}
+.btn
+{
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    width: 100px;
+    height:100px ;
+    border-radius: 50%;
+    font-weight:bold;
+    font-size: 24pt;
+    line-height:100px ;
+    text-align: center;
+    background-color: aquamarine;
+}
+a:link
+{
+    color: brown;
+}
+a:visited
+{
+    color:black;
+}
+.li:first-child
+{
+  font-weight: solid;
+}
+@media screen {
+    body {
+        font-size: 12pt;
+    }
+
+    
+}

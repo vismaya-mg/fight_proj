@@ -1,0 +1,37 @@
+.topdiv
+{
+    width:100vw;
+    height:75%;
+    background-color:rgb(0, 255, 89);
+    margin: 0%;
+
+}
+.bottomdiv{
+            width:100vw;
+            height:25%;
+            background-color:rgb(0, 255, 247);
+            margin:0%;          
+}
+.con{
+    height:100vh;
+    width:100vw;
+ 
+    display:flex;
+    flex-wrap: wrap;
+}
+.white
+{
+    margin-top: 15%;
+    height: 40vh;
+    width: 20vw;
+    background-color: white;
+    margin-left: 10%;
+}
+.white2
+{
+    margin-top: 15%;
+    height: 40vh;
+    width: 20vw;
+    background-color: white;
+    margin-left: 30%;
+}
